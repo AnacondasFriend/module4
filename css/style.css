@@ -21,7 +21,7 @@
 }
 @media screen and (max-width: 450px) {
 	.left-div>h1{
-		font-size: 42px !important;
+		font-size: 8vw !important;
 	}
 	.right-div > img{
 		width: 100vw	!important;
