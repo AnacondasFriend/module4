@@ -20,6 +20,9 @@
 	src: url(../static/OpenSans/OpenSans-Italic.ttf);
 }
 @media screen and (max-width: 350px) {
+	.left-div > h1{
+		font-size: 42px !important;
+	}
 	.right-div > img{
 		width: 100%;
 	}
