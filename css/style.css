@@ -6,7 +6,7 @@
 	font-family: 'Open Sans Bold';
 	src: url(../static/OpenSans/OpenSans-Bold.ttf);
 }
-@font-face {
+@font-face{
 	font-family: 'Open Sans ExtraBold';
 	src: url(../static/OpenSans/OpenSans-ExtraBold.ttf);
 	font-weight: 900;
@@ -19,14 +19,14 @@
 	font-family: 'Open Sans Italic';
 	src: url(../static/OpenSans/OpenSans-Italic.ttf);
 }
-@media screen and (max-width: 350px) {
-	.left-div > h1{
+@media screen and (max-width: 450px) {
+	.left-div>h1{
 		font-size: 42px !important;
 	}
 	.right-div > img{
-		width: 100%;
+		width: 100vw	!important;
 	}
-	.container > div {
+	.container > div{
 		width: 100vw !important;
 	}
 	.gallery > div{
@@ -35,20 +35,20 @@
 	.left-div{
 		width: 100vw !important; 
 	}
-	.black h2 {
+	.black h2{
 		margin-top: 30px	!important;
 	}
-	.black > form {
+	.black > form{
 		margin-bottom: 30px !important;
 	}
 }
-body {
+body{
 	margin:0;
 	background-color: #F2F2F2;
 	font-family: 'Open Sans', sans-serif;
-	overflow-x:hidden
+	overflow-x:hidden;
 }
-header {
+header{
 	width: 80%;
 	margin: 1.75% auto 5.45% auto;
 	background-color: #000000;
@@ -72,7 +72,7 @@ p{
 	padding: 0;
 	flex-wrap: wrap;
 }
-.site-menu li {
+.site-menu li{
 	display: flex;
 	padding: 41px 35px 25px;
 	color: #E0E0E0;
@@ -83,9 +83,9 @@ p{
 .site-menu li:hover{
 	background-color: #FF3F40;
 }
-.intro {
+.intro{
 	width: 80%;
-	margin: 0 auto 248px auto;
+	margin:0 auto 248px auto;
 	background-color: #F6F2F2;
 	display: flex;
 	align-content: flex-start;
@@ -93,43 +93,43 @@ p{
 	justify-content: space-between;
 }
 
-.left-div {
+.left-div{
  	display: inline-block;
- 	width: 45%;
  	margin-bottom: 50px;
- }
- .left-div h1 {
+ 	width:50%;
+ 	 }
+ .left-div h1{
  	margin: 0;
  	text-transform: uppercase;
  	font-family: 'Open Sans ExtraBold', sans-serif;
- 	font-size: 60px;
+ 	font-size: 4vw;
  	line-height: 72px;
  	margin-bottom: 3%;
- 	word-break: break-word;
  }
-.left-div p {
+
+.left-div p{
  	margin-bottom: 64px;
- 	line-height: 28px;
  }
-.left-div > a {
+.left-div > a{
 	background-color: #FF2D2D;
 	padding:14px 11%;
 	color: #FFFFFF;
 	border-radius: 5px;
 	font-family: 'Open Sans Bold';
-
-
 }
- .right-div{
+.right-div{
  	display: inline-block;
+ 	width: 500px;
  }
-.right-div img{
 
+
+.right-div img{
+	width: 100%;
 }
 .main-div{
 	width: 80%;
 	margin: 0 auto 0 auto;
-	margin-bottom:107px;
+	margin-bottom: 107px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -138,19 +138,15 @@ p{
 	display: inline-block;
 	margin-top: 0;
 	margin-bottom: 50px;
-	width: 50%;
 	max-width: 539px;
 }
 .provide > h2{
 	margin-bottom: 51px;
 	margin-top: 0;
-	font-size: 42px;
-	font-family: 'Open Sans Bold';
 }
 .provide > p{
 	margin-top: 0;
 	margin-bottom: 64px;
-	line-height: 28px;
 }
 .provide > a{
 	padding: 16px 60px;
@@ -182,13 +178,13 @@ p{
 }
 .grey-line{
 	width: 1251px;
-	height: 5px;
+	height: 3px;
 	color: #ECECEC;
 	margin-bottom: 104px;
 }
 .litle-red-line{
 	width: 134px;
-	height: 5px;
+	height: 3px;
 	background-color: #FF2D2D;
 	margin-bottom: 86px;
 }
@@ -208,7 +204,6 @@ p{
 	max-width: 537px;
 	width: 100%;
 	margin: 0 auto 30px;
-	line-height: 28px;
 }
 
 .list {
@@ -249,12 +244,11 @@ p{
 }
 .meet > p{
 	max-width: 479px;
-	line-height: 28px;
 }
 .right-red-line{
 	display: inline-block;
 	width: 134px;
-	height: 5px;
+	height: 3px;
 	background-color: #FF2D2D;
 	margin-bottom: 83px;
 }
@@ -287,7 +281,6 @@ p{
 }
 .mark > p{
 	max-width: 660px;
-	line-height: 28px;
 }
 .mark > a{
 	display: inline-block;
